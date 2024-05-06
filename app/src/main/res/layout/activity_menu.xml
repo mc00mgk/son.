@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Menü sayfası örnek düzeni -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menü Sayfası"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Menüdeki ürünler için örnek butonlar -->
+        <Button
+            android:id="@+id/btnItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ürün 1"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ürün 2"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Diğer ürünler için ek butonlar eklenebilir -->
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

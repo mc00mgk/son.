@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- styles.xml -->
+<resources>
+<!-- Aydınlık Tema -->
+<style name="AppTheme.Light" parent="Theme.AppCompat.Light">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="android:windowBackground">@color/windowBackgroundLight</item>
+</style>
+
+<!-- Karanlık Tema -->
+<style name="AppTheme.Dark" parent="Theme.AppCompat">
+    <item name="colorPrimary">@color/darkColorPrimary</item>
+    <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+    <item name="android:windowBackground">@color/windowBackgroundDark</item>
+</style>
+</resources>
